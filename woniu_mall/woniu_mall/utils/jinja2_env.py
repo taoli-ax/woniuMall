@@ -10,4 +10,5 @@ def environment(**options):
         'static': static,
         'url': reverse,
     })
+
     return env
