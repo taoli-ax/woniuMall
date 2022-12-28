@@ -25,7 +25,6 @@
         </div>
         <div class="reg_form clearfix" id="app" v-cloak>
             <form method="post" class="register_form" @submit="on_submit">
-
                 <ul>
                     <li>
                         <label>用户名:</label>
@@ -70,9 +69,6 @@
                         <input type="submit" value="注 册">
                     </li>
                 </ul>
-                {% if error_msg%}
-                <span class="error_tip2">{{error_msg}}</span>
-                {% endif %}
             </form>
         </div>
     </div>
