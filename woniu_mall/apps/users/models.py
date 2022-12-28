@@ -9,7 +9,7 @@ class User(AbstractUser):
 
     class Meta:
         db_table = 'tb_user'
-        verbose_name = '用户'
+        verbose_name = 'User'
 
     def __str__(self):
         return self.username

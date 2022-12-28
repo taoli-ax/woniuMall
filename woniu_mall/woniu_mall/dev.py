@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tw+@9h%rt6ua9^cy^$2w^rgwkrj^yy^-%)y^kyw+@ho(ljqp$m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','127.0.0.1','192.168.33.10']
 CSRF_TRUSTED_ORIGINS =['http://localhost.com']
 
 # Application definition
@@ -94,8 +94,8 @@ DATABASES = {
         'NAME': 'woniumall',
         'HOST':'localhost',
         'PORT':3306,
-        'USER':'python',
-        'PASSWORD':'123456'
+        'USER':'root',
+        'PASSWORD':'yourpassword'
     }
 }
 CACHES = {
